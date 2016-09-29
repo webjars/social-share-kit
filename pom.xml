@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>social-share-kit</artifactId>
-    <version>1.0.11</version>
+    <version>1.0.11-SNAPSHOT</version>
     <name>Social Share Kit</name>
     <description>WebJar for Social Share Kit</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.url>https://github.com/darklow/social-share-kit/archive/v1.0.11.zip</upstream.url>
+        <upstream.url>https://github.com/darklow/social-share-kit/archive/v${version.unsnapshot}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
@@ -49,7 +49,7 @@
         <url>http://github.com/webjars/social-share-kit</url>
         <connection>scm:git:https://github.com/josephcurtis/social-share-kit.git</connection>
         <developerConnection>scm:git:https://github.com/josephcurtis/social-share-kit.git</developerConnection>
-        <tag>social-share-kit-1.0.11</tag>
+        <tag>HEAD</tag>
     </scm>
         
     <build>
